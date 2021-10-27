@@ -55,6 +55,7 @@ img:not([alt]) {
   background-image: url("imgs/favo-de-mel.png");
   border: 1px solid #f9a820;
   border-radius: 1rem;
+  clear: both;
 }
 
 .curiosidade img {
