@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#f0f0f0 20%, #F2E416, #F2CE1B);
+  background-image: linear-gradient(#86ffff 20%, #F2E416, #F2CE1B);
   font-size: 20px;
   margin: 0 10rem;
 }
@@ -8,8 +8,41 @@ body, html {
   min-height: 100%;
 }
 
+
 p {
   text-align: justify;
+}
+
+p:last-of-type {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: green
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+a[href^="http"] {
+  color: blue;
+}
+
+img:not([alt]) {
+  border: 1px solid red;
 }
 
 #logo {
@@ -27,4 +60,27 @@ p {
 .curiosidade img {
   float: left;
   margin-right: 20px;
+}
+
+.casta-de-abelha {
+  border-radius: 50%;
+  border: 5px double #f9a820;
+}
+
+.esquerda {
+  float: left;
+  margin-right: 2rem;
+  shape-outside: circle(50%);
+}
+
+.direita {
+  float: right;
+  margin-left: 2rem;
+  shape-outside: circle(50%);
+}
+
+#logo-container {
+  background-color: rgba(255, 255, 255, .5);
+  box-shadow: 4px 4px 4px #0003;
+  padding: 30px;
 }
