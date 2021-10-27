@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(#f0f0f0 20%, #F2E416, #F2CE1B);
+  font-size: 20px;
+  margin: 0 10rem;
+}
+
+body, html {
+  min-height: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+.curiosidade {
+  padding: 20px;
+  background-image: url("imgs/favo-de-mel.png");
+  border: 1px solid #f9a820;
+  border-radius: 1rem;
+}
+
+.curiosidade img {
+  float: left;
+  margin-right: 20px;
+}
